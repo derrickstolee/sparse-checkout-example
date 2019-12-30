@@ -1,0 +1,7 @@
+node_modules/
+.node-persist/
+sessions/
+persist-storage/
+persist-mediaitemcache/
+persist-albumcache/
+.DS_STORE
