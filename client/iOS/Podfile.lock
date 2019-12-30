@@ -1,0 +1,12 @@
+PODS:
+  - NMAnimatedTabBarItem (0.1.1)
+
+DEPENDENCIES:
+  - NMAnimatedTabBarItem
+
+SPEC CHECKSUMS:
+  NMAnimatedTabBarItem: 257784eba1c60cae218634cef285babb29acb124
+
+PODFILE CHECKSUM: ff749ed99d8dd5c21bd041980fb1150164cd94a0
+
+COCOAPODS: 1.4.0

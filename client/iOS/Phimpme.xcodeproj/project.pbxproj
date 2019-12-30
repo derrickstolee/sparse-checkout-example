@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		400167D32061A325003EBAE4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400167D22061A324003EBAE4 /* MenuViewController.swift */; };
+		400167D52063AF82003EBAE4 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400167D42063AF82003EBAE4 /* MainTabBarViewController.swift */; };
+		40688BF42067F1D1005428C2 /* ControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40688BF32067F1D1005428C2 /* ControllerConstants.swift */; };
+		406A8ACD206FCFBE0094BA9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A8ACC206FCFBE0094BA9A /* SettingsViewController.swift */; };
+		406A8ACF2070BA2D0094BA9A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A8ACE2070BA2D0094BA9A /* Toast.swift */; };
+		406A8AD12070D7FA0094BA9A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A8AD02070D7FA0094BA9A /* Extensions.swift */; };
+		406A8AD32070DFE40094BA9A /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A8AD22070DFE40094BA9A /* CameraController.swift */; };
+		408F1A0720596AC500BDC313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1A0620596AC500BDC313 /* AppDelegate.swift */; };
+		408F1A0920596AC500BDC313 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1A0820596AC500BDC313 /* GalleryViewController.swift */; };
+		408F1A0C20596AC500BDC313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408F1A0A20596AC500BDC313 /* Main.storyboard */; };
+		408F1A0E20596AC500BDC313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408F1A0D20596AC500BDC313 /* Assets.xcassets */; };
+		408F1A1120596AC500BDC313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408F1A0F20596AC500BDC313 /* LaunchScreen.storyboard */; };
+		40F899B72060F83700471ADF /* AccountsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F899B62060F83700471ADF /* AccountsTableViewController.swift */; };
+		40F899B9206137B600471ADF /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F899B8206137B600471ADF /* CameraViewController.swift */; };
+		781992384A2F3D6CA211A031 /* Pods_Phimpme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CB302E579EA703C318C373 /* Pods_Phimpme.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		400167D22061A324003EBAE4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		400167D42063AF82003EBAE4 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		40688BF32067F1D1005428C2 /* ControllerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerConstants.swift; sourceTree = "<group>"; };
+		406A8ACC206FCFBE0094BA9A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		406A8ACE2070BA2D0094BA9A /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		406A8AD02070D7FA0094BA9A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		406A8AD22070DFE40094BA9A /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		408F1A0320596AC500BDC313 /* Phimpme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phimpme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408F1A0620596AC500BDC313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		408F1A0820596AC500BDC313 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		408F1A0B20596AC500BDC313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		408F1A0D20596AC500BDC313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		408F1A1020596AC500BDC313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		408F1A1220596AC500BDC313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F899B62060F83700471ADF /* AccountsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsTableViewController.swift; sourceTree = "<group>"; };
+		40F899B8206137B600471ADF /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		991E11AE5F3F3F3A820B0968 /* Pods-Phimpme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phimpme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Phimpme/Pods-Phimpme.debug.xcconfig"; sourceTree = "<group>"; };
+		F2CB302E579EA703C318C373 /* Pods_Phimpme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Phimpme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE33A7B2AAB0D992BB6E0FB7 /* Pods-Phimpme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Phimpme.release.xcconfig"; path = "Pods/Target Support Files/Pods-Phimpme/Pods-Phimpme.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408F1A0020596AC400BDC313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781992384A2F3D6CA211A031 /* Pods_Phimpme.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		232B706441CDC18409E4C7AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2CB302E579EA703C318C373 /* Pods_Phimpme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40688BF52067F365005428C2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				40688BF32067F1D1005428C2 /* ControllerConstants.swift */,
+				406A8ACE2070BA2D0094BA9A /* Toast.swift */,
+				406A8AD02070D7FA0094BA9A /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		406A8AD42070E09A0094BA9A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				406A8AD22070DFE40094BA9A /* CameraController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4070CE422067EC950067E62A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				408F1A0D20596AC500BDC313 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4070CE432067ECF50067E62A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				408F1A0620596AC500BDC313 /* AppDelegate.swift */,
+				408F1A1220596AC500BDC313 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4086D8BA20619E0300CE2DE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				408F1A0820596AC500BDC313 /* GalleryViewController.swift */,
+				40F899B62060F83700471ADF /* AccountsTableViewController.swift */,
+				40F899B8206137B600471ADF /* CameraViewController.swift */,
+				400167D22061A324003EBAE4 /* MenuViewController.swift */,
+				400167D42063AF82003EBAE4 /* MainTabBarViewController.swift */,
+				406A8ACC206FCFBE0094BA9A /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4086D8BB20619E2100CE2DE4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				408F1A0A20596AC500BDC313 /* Main.storyboard */,
+				408F1A0F20596AC500BDC313 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		408F19FA20596AC400BDC313 = {
+			isa = PBXGroup;
+			children = (
+				408F1A0520596AC500BDC313 /* Phimpme */,
+				408F1A0420596AC500BDC313 /* Products */,
+				D232154F27C9B625D977C578 /* Pods */,
+				232B706441CDC18409E4C7AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		408F1A0420596AC500BDC313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408F1A0320596AC500BDC313 /* Phimpme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408F1A0520596AC500BDC313 /* Phimpme */ = {
+			isa = PBXGroup;
+			children = (
+				4086D8BA20619E0300CE2DE4 /* Controllers */,
+				4086D8BB20619E2100CE2DE4 /* Storyboards */,
+				4070CE422067EC950067E62A /* Assets */,
+				4070CE432067ECF50067E62A /* Supporting Files */,
+				40688BF52067F365005428C2 /* Helpers */,
+				406A8AD42070E09A0094BA9A /* Services */,
+			);
+			path = Phimpme;
+			sourceTree = "<group>";
+		};
+		D232154F27C9B625D977C578 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				991E11AE5F3F3F3A820B0968 /* Pods-Phimpme.debug.xcconfig */,
+				FE33A7B2AAB0D992BB6E0FB7 /* Pods-Phimpme.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		408F1A0220596AC400BDC313 /* Phimpme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408F1A1520596AC500BDC313 /* Build configuration list for PBXNativeTarget "Phimpme" */;
+			buildPhases = (
+				222E20F6A37BB972341D77F5 /* [CP] Check Pods Manifest.lock */,
+				408F19FF20596AC400BDC313 /* Sources */,
+				408F1A0020596AC400BDC313 /* Frameworks */,
+				408F1A0120596AC400BDC313 /* Resources */,
+				B03B9988338769AA6EFEF639 /* [CP] Embed Pods Frameworks */,
+				52E946A37C5FD6B9513182FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Phimpme;
+			productName = "Phimpme-iOS";
+			productReference = 408F1A0320596AC500BDC313 /* Phimpme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408F19FB20596AC400BDC313 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jogendra Singh";
+				TargetAttributes = {
+					408F1A0220596AC400BDC313 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 408F19FE20596AC400BDC313 /* Build configuration list for PBXProject "Phimpme" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408F19FA20596AC400BDC313;
+			productRefGroup = 408F1A0420596AC500BDC313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408F1A0220596AC400BDC313 /* Phimpme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408F1A0120596AC400BDC313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408F1A1120596AC500BDC313 /* LaunchScreen.storyboard in Resources */,
+				408F1A0E20596AC500BDC313 /* Assets.xcassets in Resources */,
+				408F1A0C20596AC500BDC313 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		222E20F6A37BB972341D77F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Phimpme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52E946A37C5FD6B9513182FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phimpme/Pods-Phimpme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03B9988338769AA6EFEF639 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Phimpme/Pods-Phimpme-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NMAnimatedTabBarItem/NMAnimatedTabBarItem.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NMAnimatedTabBarItem.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Phimpme/Pods-Phimpme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408F19FF20596AC400BDC313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408F1A0920596AC500BDC313 /* GalleryViewController.swift in Sources */,
+				400167D32061A325003EBAE4 /* MenuViewController.swift in Sources */,
+				40F899B9206137B600471ADF /* CameraViewController.swift in Sources */,
+				400167D52063AF82003EBAE4 /* MainTabBarViewController.swift in Sources */,
+				40688BF42067F1D1005428C2 /* ControllerConstants.swift in Sources */,
+				406A8AD12070D7FA0094BA9A /* Extensions.swift in Sources */,
+				406A8AD32070DFE40094BA9A /* CameraController.swift in Sources */,
+				40F899B72060F83700471ADF /* AccountsTableViewController.swift in Sources */,
+				408F1A0720596AC500BDC313 /* AppDelegate.swift in Sources */,
+				406A8ACF2070BA2D0094BA9A /* Toast.swift in Sources */,
+				406A8ACD206FCFBE0094BA9A /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		408F1A0A20596AC500BDC313 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				408F1A0B20596AC500BDC313 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		408F1A0F20596AC500BDC313 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				408F1A1020596AC500BDC313 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		408F1A1320596AC500BDC313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		408F1A1420596AC500BDC313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		408F1A1620596AC500BDC313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991E11AE5F3F3F3A820B0968 /* Pods-Phimpme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
+				INFOPLIST_FILE = "$(SRCROOT)/Phimpme/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jog.Phimpme-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		408F1A1720596AC500BDC313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE33A7B2AAB0D992BB6E0FB7 /* Pods-Phimpme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
+				INFOPLIST_FILE = "$(SRCROOT)/Phimpme/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jog.Phimpme-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408F19FE20596AC400BDC313 /* Build configuration list for PBXProject "Phimpme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408F1A1320596AC500BDC313 /* Debug */,
+				408F1A1420596AC500BDC313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408F1A1520596AC500BDC313 /* Build configuration list for PBXNativeTarget "Phimpme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408F1A1620596AC500BDC313 /* Debug */,
+				408F1A1720596AC500BDC313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 408F19FB20596AC400BDC313 /* Project object */;
+}
