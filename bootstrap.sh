@@ -17,9 +17,9 @@ case $TEAM in
 	;;
 esac
 
-echo "git sparse-checkout init --cone"
+echo "Running 'git sparse-checkout init --cone'"
 git sparse-checkout init --cone
 
-echo "git sparse-checkout set $FOLDERS"
+echo "Running 'git sparse-checkout set $FOLDERS'"
 git sparse-checkout set $FOLDERS
 
