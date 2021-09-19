@@ -70,3 +70,6 @@ When an album is selected, the handler `app.post('/loadFromAlbum', ...)` receive
 Photos are displayed on the photo frame page of this app. The template file is located at `views/pages/frame.ejs`. When this page is loaded, a request is made to `app.get('/getQueue', ...)` to the server `app.js`.
 
 This handler returns a list of the `mediaItems` the user has loaded into the frame through search or from an album. They are rendered for display by the browser through the file `static/js/frame.js`. Here the caption is constructed from the description and other media metadata. A thumbnail, scaled based on the original height and width, is used to render a preview initially while the image at full resolution is being loaded.
+
+## Additional Notes
+I am testing if there is changes from a branch that being merged to `main` branch.
